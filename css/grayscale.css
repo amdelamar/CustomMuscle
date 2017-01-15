@@ -15,26 +15,27 @@ html {
   height: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 35px;
+  margin: 5px 0 5px;
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
+  line-height: 1.5;
 }
 p {
-  margin: 0 0 25px;
+  margin: 5px 0 15px;
   font-size: 18px;
   line-height: 1.5;
 }
 @media (min-width: 768px) {
   p {
-    margin: 0 0 35px;
+    margin: 5px 0 15px;
     font-size: 20px;
     line-height: 1.6;
   }
 }
 a {
-  color: #42DCA3;
+  color: #23527c;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -42,10 +43,13 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #23527c;
 }
 .light {
   font-weight: 400;
+}
+.large {
+  font-size: 2.5em;
 }
 .navbar-custom {
   margin-bottom: 0;
@@ -213,18 +217,24 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .download-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: url(../img/downloads-bg.jpg) no-repeat bottom center scroll;
   background-color: #212121;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+.content-section-alt {
+  background: #122a3f;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 #map {
   width: 100%;
@@ -233,7 +243,8 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    padding-top: 125px;
+    padding-bottom: 125px;
   }
   .download-section {
     padding: 100px 0;
@@ -253,16 +264,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #23527c;
+  color: #23527c;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #23527c;
   outline: none;
   color: #212121;
-  background-color: #42DCA3;
+  background-color: #23527c;
 }
 ul.banner-social-buttons {
   margin-top: 0;
